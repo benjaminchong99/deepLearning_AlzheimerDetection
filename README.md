@@ -1,7 +1,7 @@
 # Alzheimer's Detection with CNNs
 Alzheimer's disease (AD) is a progressive neurodegenerative condition leading to memory loss, particularly affecting episodic memory functions such as context recall. It stands as the leading cause of dementia, significantly impacting memory, thinking, language, judgment and behavior. In addition, Alzheimer's disease is irreversible and progressive. Alzheimer's is evaluated by identifying certain symptoms and ruling out other possible causes of dementia, often utilizing medical exams like CT, MRI or PET scans of the head. While there is no cure, medications can help to slow the disease's progression and manage the symptoms.
 
-The project aims to evaluate pre existing computer vision models like CNN, AlexNet, and Inception v3 for Alzheimer's detection. It seeks to determine the most effective model for prediction accuracy.
+The project aims to evaluate pre existing computer vision models, in particular CNN and Inception v3 for Alzheimer's detection. It seeks to determine the most effective model for prediction accuracy.
 
 ## Getting Started
 Clone this repository
@@ -25,7 +25,6 @@ deepLearning_AlzheimerDetection
 ├── README.md
 ├── ad_labels.py
 ├── archive.zip
-├── datacollection.ipynb
 ├── dataset.py (Dataset initialisation class)
 ├── datasetv2.py (Dataset init class with Weighted Random Sampler)
 ├── inception_models (Trained Inception Models)
