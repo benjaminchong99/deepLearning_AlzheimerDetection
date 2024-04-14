@@ -56,7 +56,7 @@ def ws(df_col):
   ws = WeightedRandomSampler(weights, len(weights), replacement=True)
   return ws
 
-def datasetv3():
+def datasetv3(resize):
     torch.manual_seed(42)
 
     ############################################
@@ -81,7 +81,7 @@ def datasetv3():
     df = df.replace({"label": di})
 
     transform_data = Compose([ToTensor(),
-                            Resize(299),
+                            Resize(resize),
                             Normalize((0.1307,), (0.3081,))])
 
     ############################################
