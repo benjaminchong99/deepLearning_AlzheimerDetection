@@ -11,8 +11,7 @@ you'll want to pull from the finalsubmission branch
 ```
 
 ## Requirements
-1. Install the dependencies:
-`pip install -r requirements.txt`
+1. Install the dependencies: `pip install -r requirements.txt`
 2. Ensure ad_labels.py, datasetv2.py and archive.zip are all in your environment.
 3. Unzip archive.zip
 4. Run inceptionv3_smote_3.ipynb for a full breakdown of inceptionv3 models and standard 2-layer CNN
