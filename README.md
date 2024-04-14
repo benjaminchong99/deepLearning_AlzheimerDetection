@@ -7,13 +7,14 @@ The project aims to evaluate pre existing computer vision models, in particular 
 Clone this repository
 ```
 git clone https://github.com/benjaminchong99/deepLearning_AlzheimerDetection.git
+you'll want to pull from the finalsubmission branch
 ```
 
 ## Requirements
 1. Install the dependencies:
 `pip install -r requirements.txt`
-2. Ensure ad_labels.py, datasetv2.py, datasetv3.py and dataset.zip are all in your environment.
-3. Unzip dataset.zip
+2. Ensure ad_labels.py, datasetv2.py and archive.zip are all in your environment.
+3. Unzip archive.zip
 4. Run inceptionv3_smote_3.ipynb for a full breakdown of inceptionv3 models and standard 2-layer CNN
 5. Run DL_proj for learning rate experiments.
 
@@ -25,11 +26,10 @@ deepLearning_AlzheimerDetection
 ├── README.md
 ├── ad_labels.py
 ├── archive.zip
-├── dataset.py (Dataset initialisation class)
 ├── datasetv2.py (Dataset init class with Weighted Random Sampler)
-├── inception_models (Trained Inception Models)
-├── inceptionv3.ipynb (Inception v3 base model training)
-├── inceptionv3_smote.ipynb (Inception v3 base model with SMOTE)
+├── inceptionv3_smote_3.ipynb (Inception v3 base model with SMOTE)
 ├── requirements.txt
-└── saved_models (Trained custom models)
+├── inception_models (Trained Inception Models)
+├── saved_models (Trained custom models)
+└── final_run_models (the 3 Trained custom models)
 ```
